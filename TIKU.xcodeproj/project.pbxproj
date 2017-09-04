@@ -1,0 +1,541 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		92FF32EF1F5D943E004D9399 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 92FF32EE1F5D943E004D9399 /* main.m */; };
+		92FF32F21F5D943E004D9399 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 92FF32F11F5D943E004D9399 /* AppDelegate.m */; };
+		92FF32F51F5D943E004D9399 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 92FF32F41F5D943E004D9399 /* ViewController.m */; };
+		92FF32F81F5D943E004D9399 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92FF32F61F5D943E004D9399 /* Main.storyboard */; };
+		92FF32FA1F5D943E004D9399 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 92FF32F91F5D943E004D9399 /* Assets.xcassets */; };
+		92FF32FD1F5D943E004D9399 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92FF32FB1F5D943E004D9399 /* LaunchScreen.storyboard */; };
+		92FF33081F5D943E004D9399 /* TIKUTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 92FF33071F5D943E004D9399 /* TIKUTests.m */; };
+		92FF33131F5D943E004D9399 /* TIKUUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 92FF33121F5D943E004D9399 /* TIKUUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		92FF33041F5D943E004D9399 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 92FF32E21F5D943D004D9399 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 92FF32E91F5D943E004D9399;
+			remoteInfo = TIKU;
+		};
+		92FF330F1F5D943E004D9399 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 92FF32E21F5D943D004D9399 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 92FF32E91F5D943E004D9399;
+			remoteInfo = TIKU;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		92FF32EA1F5D943E004D9399 /* TIKU.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TIKU.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		92FF32EE1F5D943E004D9399 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		92FF32F01F5D943E004D9399 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		92FF32F11F5D943E004D9399 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		92FF32F31F5D943E004D9399 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		92FF32F41F5D943E004D9399 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		92FF32F71F5D943E004D9399 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		92FF32F91F5D943E004D9399 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		92FF32FC1F5D943E004D9399 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		92FF32FE1F5D943E004D9399 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		92FF33031F5D943E004D9399 /* TIKUTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TIKUTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		92FF33071F5D943E004D9399 /* TIKUTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TIKUTests.m; sourceTree = "<group>"; };
+		92FF33091F5D943E004D9399 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		92FF330E1F5D943E004D9399 /* TIKUUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TIKUUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		92FF33121F5D943E004D9399 /* TIKUUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TIKUUITests.m; sourceTree = "<group>"; };
+		92FF33141F5D943E004D9399 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		92FF32E71F5D943E004D9399 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92FF33001F5D943E004D9399 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92FF330B1F5D943E004D9399 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		92FF32E11F5D943D004D9399 = {
+			isa = PBXGroup;
+			children = (
+				92FF32EC1F5D943E004D9399 /* TIKU */,
+				92FF33061F5D943E004D9399 /* TIKUTests */,
+				92FF33111F5D943E004D9399 /* TIKUUITests */,
+				92FF32EB1F5D943E004D9399 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		92FF32EB1F5D943E004D9399 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				92FF32EA1F5D943E004D9399 /* TIKU.app */,
+				92FF33031F5D943E004D9399 /* TIKUTests.xctest */,
+				92FF330E1F5D943E004D9399 /* TIKUUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		92FF32EC1F5D943E004D9399 /* TIKU */ = {
+			isa = PBXGroup;
+			children = (
+				92FF32F01F5D943E004D9399 /* AppDelegate.h */,
+				92FF32F11F5D943E004D9399 /* AppDelegate.m */,
+				92FF32F31F5D943E004D9399 /* ViewController.h */,
+				92FF32F41F5D943E004D9399 /* ViewController.m */,
+				92FF32F61F5D943E004D9399 /* Main.storyboard */,
+				92FF32F91F5D943E004D9399 /* Assets.xcassets */,
+				92FF32FB1F5D943E004D9399 /* LaunchScreen.storyboard */,
+				92FF32FE1F5D943E004D9399 /* Info.plist */,
+				92FF32ED1F5D943E004D9399 /* Supporting Files */,
+			);
+			path = TIKU;
+			sourceTree = "<group>";
+		};
+		92FF32ED1F5D943E004D9399 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				92FF32EE1F5D943E004D9399 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		92FF33061F5D943E004D9399 /* TIKUTests */ = {
+			isa = PBXGroup;
+			children = (
+				92FF33071F5D943E004D9399 /* TIKUTests.m */,
+				92FF33091F5D943E004D9399 /* Info.plist */,
+			);
+			path = TIKUTests;
+			sourceTree = "<group>";
+		};
+		92FF33111F5D943E004D9399 /* TIKUUITests */ = {
+			isa = PBXGroup;
+			children = (
+				92FF33121F5D943E004D9399 /* TIKUUITests.m */,
+				92FF33141F5D943E004D9399 /* Info.plist */,
+			);
+			path = TIKUUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		92FF32E91F5D943E004D9399 /* TIKU */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 92FF33171F5D943E004D9399 /* Build configuration list for PBXNativeTarget "TIKU" */;
+			buildPhases = (
+				92FF32E61F5D943E004D9399 /* Sources */,
+				92FF32E71F5D943E004D9399 /* Frameworks */,
+				92FF32E81F5D943E004D9399 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TIKU;
+			productName = TIKU;
+			productReference = 92FF32EA1F5D943E004D9399 /* TIKU.app */;
+			productType = "com.apple.product-type.application";
+		};
+		92FF33021F5D943E004D9399 /* TIKUTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 92FF331A1F5D943E004D9399 /* Build configuration list for PBXNativeTarget "TIKUTests" */;
+			buildPhases = (
+				92FF32FF1F5D943E004D9399 /* Sources */,
+				92FF33001F5D943E004D9399 /* Frameworks */,
+				92FF33011F5D943E004D9399 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				92FF33051F5D943E004D9399 /* PBXTargetDependency */,
+			);
+			name = TIKUTests;
+			productName = TIKUTests;
+			productReference = 92FF33031F5D943E004D9399 /* TIKUTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		92FF330D1F5D943E004D9399 /* TIKUUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 92FF331D1F5D943E004D9399 /* Build configuration list for PBXNativeTarget "TIKUUITests" */;
+			buildPhases = (
+				92FF330A1F5D943E004D9399 /* Sources */,
+				92FF330B1F5D943E004D9399 /* Frameworks */,
+				92FF330C1F5D943E004D9399 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				92FF33101F5D943E004D9399 /* PBXTargetDependency */,
+			);
+			name = TIKUUITests;
+			productName = TIKUUITests;
+			productReference = 92FF330E1F5D943E004D9399 /* TIKUUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		92FF32E21F5D943D004D9399 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Hu, Smile";
+				TargetAttributes = {
+					92FF32E91F5D943E004D9399 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = G8ATFA62TF;
+						ProvisioningStyle = Automatic;
+					};
+					92FF33021F5D943E004D9399 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = G8ATFA62TF;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 92FF32E91F5D943E004D9399;
+					};
+					92FF330D1F5D943E004D9399 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = G8ATFA62TF;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 92FF32E91F5D943E004D9399;
+					};
+				};
+			};
+			buildConfigurationList = 92FF32E51F5D943D004D9399 /* Build configuration list for PBXProject "TIKU" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 92FF32E11F5D943D004D9399;
+			productRefGroup = 92FF32EB1F5D943E004D9399 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				92FF32E91F5D943E004D9399 /* TIKU */,
+				92FF33021F5D943E004D9399 /* TIKUTests */,
+				92FF330D1F5D943E004D9399 /* TIKUUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		92FF32E81F5D943E004D9399 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92FF32FD1F5D943E004D9399 /* LaunchScreen.storyboard in Resources */,
+				92FF32FA1F5D943E004D9399 /* Assets.xcassets in Resources */,
+				92FF32F81F5D943E004D9399 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92FF33011F5D943E004D9399 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92FF330C1F5D943E004D9399 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		92FF32E61F5D943E004D9399 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92FF32F51F5D943E004D9399 /* ViewController.m in Sources */,
+				92FF32F21F5D943E004D9399 /* AppDelegate.m in Sources */,
+				92FF32EF1F5D943E004D9399 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92FF32FF1F5D943E004D9399 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92FF33081F5D943E004D9399 /* TIKUTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92FF330A1F5D943E004D9399 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92FF33131F5D943E004D9399 /* TIKUUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		92FF33051F5D943E004D9399 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 92FF32E91F5D943E004D9399 /* TIKU */;
+			targetProxy = 92FF33041F5D943E004D9399 /* PBXContainerItemProxy */;
+		};
+		92FF33101F5D943E004D9399 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 92FF32E91F5D943E004D9399 /* TIKU */;
+			targetProxy = 92FF330F1F5D943E004D9399 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		92FF32F61F5D943E004D9399 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				92FF32F71F5D943E004D9399 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		92FF32FB1F5D943E004D9399 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				92FF32FC1F5D943E004D9399 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		92FF33151F5D943E004D9399 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		92FF33161F5D943E004D9399 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		92FF33181F5D943E004D9399 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = G8ATFA62TF;
+				INFOPLIST_FILE = TIKU/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.smile.TIKU;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		92FF33191F5D943E004D9399 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = G8ATFA62TF;
+				INFOPLIST_FILE = TIKU/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.smile.TIKU;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		92FF331B1F5D943E004D9399 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = G8ATFA62TF;
+				INFOPLIST_FILE = TIKUTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.smile.TIKUTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TIKU.app/TIKU";
+			};
+			name = Debug;
+		};
+		92FF331C1F5D943E004D9399 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = G8ATFA62TF;
+				INFOPLIST_FILE = TIKUTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.smile.TIKUTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TIKU.app/TIKU";
+			};
+			name = Release;
+		};
+		92FF331E1F5D943E004D9399 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = G8ATFA62TF;
+				INFOPLIST_FILE = TIKUUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.smile.TIKUUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TIKU;
+			};
+			name = Debug;
+		};
+		92FF331F1F5D943E004D9399 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = G8ATFA62TF;
+				INFOPLIST_FILE = TIKUUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.smile.TIKUUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TIKU;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		92FF32E51F5D943D004D9399 /* Build configuration list for PBXProject "TIKU" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92FF33151F5D943E004D9399 /* Debug */,
+				92FF33161F5D943E004D9399 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		92FF33171F5D943E004D9399 /* Build configuration list for PBXNativeTarget "TIKU" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92FF33181F5D943E004D9399 /* Debug */,
+				92FF33191F5D943E004D9399 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		92FF331A1F5D943E004D9399 /* Build configuration list for PBXNativeTarget "TIKUTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92FF331B1F5D943E004D9399 /* Debug */,
+				92FF331C1F5D943E004D9399 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		92FF331D1F5D943E004D9399 /* Build configuration list for PBXNativeTarget "TIKUUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92FF331E1F5D943E004D9399 /* Debug */,
+				92FF331F1F5D943E004D9399 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 92FF32E21F5D943D004D9399 /* Project object */;
+}
